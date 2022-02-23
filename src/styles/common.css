@@ -1,4 +1,5 @@
 * {margin: 0;padding: 0;border: 0;box-sizing: border-box;}
+a {text-decoration: none;color: white;}
 /* #wrap{width: 100%;height: 100%;} */
 
 /* Login */
@@ -6,15 +7,19 @@
     width: 100%;
 	height: 100vh;
 	background: #2c3338;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .login-wrap form {
     width: 280px;
-	margin: 0 auto;
-	padding-top: 500px;
 }
 
 .login-wrap form h1 {
+    height: 100px;
+    line-height: 100px;
 	text-align: center;
 	color: white;
 }
@@ -56,3 +61,6 @@
 	height: 50px;
 	line-height: 1.5em;
 }
+
+.login-wrap .login-menu a {font-weight: 800;}
+.login-wrap .login-menu span {color: white;}
