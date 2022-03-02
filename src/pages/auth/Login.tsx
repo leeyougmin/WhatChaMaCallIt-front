@@ -35,7 +35,7 @@ const Login = () => {
 				<button onClick={handleClick}>Submit</button>
 			</form>
 			<div className='login-menu'>
-				<Link to="/auth/sign-up">Sign Up!</Link><span> | </span><Link to="/auth/find">forgot my ID or Password?</Link>
+				<Link to="/auth/sign-up">회원가입</Link><span> | </span><Link to="/auth/find">계정을 잃어버리셨나요?</Link>
 			</div>
 		</div>
 	);

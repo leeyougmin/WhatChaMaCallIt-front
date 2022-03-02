@@ -42,10 +42,10 @@ const SignUp = () => {
 				<input type='tel' name='userPhone' value={formData.userPhone} onChange={handleChange} placeholder='Phone' required/>
 				<span></span>
 				<input type='email' name='userEmail' value={formData.userEmail} onChange={handleChange} placeholder='Email' required/>
-				<button onClick={handleClick}>Sign Up!</button>
+				<button onClick={handleClick}>회원가입 !</button>
 			</form>
 			<div className='login-menu'>
-				<Link to="/auth/login">Login!</Link><span> | </span><Link to="/auth/find-password">forgot my Password?</Link>
+				<Link to="/auth/login">로그인 하러가기</Link><span> | </span><Link to="/auth/find">계정을 잃어버리셨나요?</Link>
 			</div>
 		</div>
 	);
