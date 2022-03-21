@@ -109,3 +109,12 @@ ul,ol,li {list-style: none;}
 .find-wrap form button {
     width: 100%;
 }
+
+.find-wrap .finded-id {
+    padding: 10px;
+    background: #b2b6ba;
+    border: 1px solid #b2b6ba;
+    border-radius: 7px;
+    text-align: center;
+    color: white;
+}
