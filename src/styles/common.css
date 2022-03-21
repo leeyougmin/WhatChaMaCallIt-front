@@ -110,11 +110,26 @@ ul,ol,li {list-style: none;}
     width: 100%;
 }
 
-.find-wrap .finded-id {
+.find-wrap .finded {
     padding: 10px;
+    margin-bottom: 10px;
     background: #b2b6ba;
     border: 1px solid #b2b6ba;
     border-radius: 7px;
     text-align: center;
     color: white;
+}
+
+.find-wrap .finded p {
+    font-size: 14px;
+}
+.find-wrap .finded span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ea4c88;
+}
+.find-wrap > button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
 }
